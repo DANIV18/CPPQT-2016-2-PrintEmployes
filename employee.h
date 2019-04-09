@@ -13,7 +13,7 @@ public:
 
     Employee(const Employee &another);
 
-    Employee(const std::string &name, const std::string &phoneNumber, const std::string &adress,
+    Employee(const std::string &name, const std::string &phoneNumber, const std::string &address,
                 const std::string &date, const double &salary);
 
     Employee& operator= (const Employee &another);
@@ -26,8 +26,8 @@ public:
     std::string phoneNumber() const;
     void setPhoneNumber(const std::string &phoneNumber);
 
-    std::string adress() const;
-    void setAdress(const std::string &adress);
+    std::string address() const;
+    void setAddress(const std::string &address);
 
     std::string date() const;
     void setDate(const std::string &date);
@@ -40,7 +40,7 @@ public:
 private:
     std::string mName;
     std::string mPhoneNumber;
-    std::string mAdress;
+    std::string mAddress;
     std::string mDate;
     double mSalary;
 };

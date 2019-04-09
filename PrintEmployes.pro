@@ -4,8 +4,10 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += main.cpp \
-    employee.cpp
+    employee.cpp \
+    office.cpp
 
 HEADERS += \
     printable.h \
-    employee.h
+    employee.h \
+    office.h
