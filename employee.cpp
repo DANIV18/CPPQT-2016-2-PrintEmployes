@@ -76,20 +76,20 @@ Employee::Employee(const Employee &another)
 
 std::ostream &operator<<(std::ostream &out, const Employee &employee)
 {
-    out <<"name - "<<employee.mName<<" ; "<<std::endl
-      <<"phone number - "<<employee.mPhoneNumber<<" ; "<<std::endl
-     <<"adress - "<<employee.mAddress<<" ; "<<std::endl
-    <<"date - "<<employee.mDate<<" ; "<<std::endl
-   <<"salary - "<<employee.mSalary<<" $ ; "<<std::endl;
+    out <<"name - "<<employee.mName<<";"<<std::endl
+      <<"phone number - "<<employee.mPhoneNumber<<";"<<std::endl
+     <<"adress - "<<employee.mAddress<<";"<<std::endl
+    <<"date - "<<employee.mDate<<";"<<std::endl
+   <<"salary - "<<employee.mSalary<<" $;"<<std::endl;
     return out;
 }
 
 
 void Employee::print() const
 {
-    std::cout<<"name - "<<mName<<" ; "<<std::endl
-            <<"phone number - "<<mPhoneNumber<<" ; "<<std::endl
-           <<"adress - "<<mAddress<<" ; "<<std::endl
-          <<"date - "<<mDate<<" ; "<<std::endl
-         <<"salary - "<<mSalary<<" $ ; "<<std::endl;
+    std::cout<<"name - "<<mName<<";"<<std::endl
+            <<"phone number - "<<mPhoneNumber<<";"<<std::endl
+           <<"adress - "<<mAddress<<";"<<std::endl
+          <<"date - "<<mDate<<";"<<std::endl
+         <<"salary - "<<mSalary<<" $;"<<std::endl;
 }
