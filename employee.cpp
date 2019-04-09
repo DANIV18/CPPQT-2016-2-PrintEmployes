@@ -80,7 +80,7 @@ std::ostream &operator<<(std::ostream &out, const Employee &employee)
       <<"phone number - "<<employee.mPhoneNumber<<" ; "<<std::endl
      <<"adress - "<<employee.mAddress<<" ; "<<std::endl
     <<"date - "<<employee.mDate<<" ; "<<std::endl
-   <<"salary - "<<employee.mSalary<<" ; "<<std::endl;
+   <<"salary - "<<employee.mSalary<<" $ ; "<<std::endl;
     return out;
 }
 
@@ -91,5 +91,5 @@ void Employee::print() const
             <<"phone number - "<<mPhoneNumber<<" ; "<<std::endl
            <<"adress - "<<mAddress<<" ; "<<std::endl
           <<"date - "<<mDate<<" ; "<<std::endl
-         <<"salary - "<<mSalary<<" ; "<<std::endl;
+         <<"salary - "<<mSalary<<" $ ; "<<std::endl;
 }
