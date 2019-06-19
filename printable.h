@@ -6,7 +6,7 @@ class Printable
 {
 public:
     virtual void print() const = 0;
-    virtual ~Printable();
+    virtual ~Printable() = default;
 };
 
 #endif // PRINTABLE_H

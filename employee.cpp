@@ -1,8 +1,5 @@
 #include "employee.h"
 
-Employee::Employee()
-    :mName{"no name"}, mPhoneNumber{"0000000000"}, mAddress{"no adress"}, mDate{"no date"}, mSalary{0.0}
-{}
 Employee::Employee(const std::string &name, const std::string &phoneNumber, const std::string &address,
                     const std::string &date, const double &salary)
     :mName{name}, mPhoneNumber{phoneNumber}, mAddress{address}, mDate{date}, mSalary{salary}

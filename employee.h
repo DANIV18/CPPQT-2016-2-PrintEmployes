@@ -9,7 +9,6 @@
 class Employee : public Printable
 {
 public:
-    Employee();
 
     Employee(const Employee &another);
 
